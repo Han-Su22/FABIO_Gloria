@@ -8,5 +8,5 @@ https://github.com/fineprint-global/fabio-hybrid
 Plan to publish once finished
 
 Some changes based on the previous repository:
-1. File path in https://github.com/fineprint-global/fabio-hybrid to run locally
+1. File path in https://github.com/fineprint-global/fabio-hybrid to run locally (couple EXOIBASE and FABIO)
 2. Calculate L, Z, and A for GLORIA in MATLAB to accelerate the computation. 
