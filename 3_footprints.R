@@ -10,8 +10,8 @@ agg <- function(x)
 
 library(Matrix)
 
-items <- read.csv2("fabio_v1.2/items.csv")
-regions <- read.csv2("fabio_v1.2/regions.csv")
+items <- read.csv("fabio_v1.2/items.csv")
+regions <- read.csv("fabio_v1.2/regions.csv")
 regions_gloria_fao <- read.csv2("Regions_FAO-gloria.csv", stringsAsFactors = FALSE)
 regions_gloria <- unique(regions_gloria_fao[,3:5])
 regions_gloria$GLORIA_code <- as.numeric(regions_gloria$GLORIA_code)
@@ -53,9 +53,9 @@ FP <- agg(FP)
 FP <- t(FP)
 
 # write results
-rownames(FP) <- regions$Country
-colnames(FP) <- regions_gloria$gloriaregion
-write.csv(FP, paste0("footprints_",year,"_mass.csv"))
+rownames(FP) <- regions$area
+colnames(FP) <- regions_gloria$GLORIA_region
+write.csv(FP, paste0("fabio_v1.2/hybrid/","footprints_",year,"_mass.csv"))
 
 #--------------------------
 # price-based allocation
@@ -71,9 +71,9 @@ FP <- agg(FP)
 FP <- t(FP)
 
 # write results
-rownames(FP) <- regions$Country
-colnames(FP) <- regions_gloria$gloriaregion
-write.csv(FP, paste0("footprints_",year,"_price.csv"))
+rownames(FP) <- regions$area
+colnames(FP) <- regions_gloria$GLORIA_region
+write.csv(FP, paste0("fabio_v1.2/hybrid/","footprints_",year,"_price.csv"))
 
 #--------------------------
 # price-based allocation FP EU
