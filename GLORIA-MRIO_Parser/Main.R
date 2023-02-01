@@ -25,7 +25,7 @@ filename <- list("pre" = "_120secMother_AllCountries_002_",
                  #"RegConcordance" = "GLORIA_164RegAgg.xlsx")#don't have the file, not label the countries' group
 
 # Load all labels, codes, concordances and other meta information including the agg function
-source("./R/0_create_labels.R")
+source("./0_create_labels.R")
 
 ## Set years of the time series and perform parsing
 years <- 1990:2020
@@ -33,9 +33,9 @@ years <- 1990:2020
 
 
 # Execute script for parsing the extensions (materials, labor, carbon, energy, land, water (added))
-source("./R/1_Extension_parser.R")
+source("./1_Extension_parser.R")
 # Load function for parsing the basic MRIO variables (L, A, S, U, Y, ...)
-source("./R/1_MRIO_parser.R")
+source("./1_MRIO_parser.R")
 
 
 # Load function for performing basic MRIO footprint analysis

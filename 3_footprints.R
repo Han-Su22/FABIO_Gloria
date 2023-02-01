@@ -10,22 +10,21 @@ agg <- function(x)
 
 library(Matrix)
 
-items <- read.csv2("fabio/Items.csv")
-regions <- read.csv2("fabio/Regions.csv")
-regions_exio_fao <- read.csv2("Regions_FAO-EXIO.csv", stringsAsFactors = FALSE)
-regions_exio <- unique(regions_exio_fao[,3:5])
-regions_exio$EXIOcode <- as.numeric(regions_exio$EXIOcode)
-regions_exio <- regions_exio[order(regions_exio$EXIOcode)[1:49],]
+items <- read.csv2("fabio_v1.2/items.csv")
+regions <- read.csv2("fabio_v1.2/regions.csv")
+regions_gloria_fao <- read.csv2("Regions_FAO-gloria.csv", stringsAsFactors = FALSE)
+regions_gloria <- unique(regions_gloria_fao[,3:5])
+regions_gloria$GLORIA_code <- as.numeric(regions_gloria$GLORIA_code)
+regions_gloria <- regions_gloria[order(regions_gloria$GLORIA_code)[1:164],]
 
 year=1995
 # years <- 1995:2013
 
-load(paste0("exiobase/pxp/",year,"_Y.RData"))
-#E <- readRDS(paste0("fabio/",year,"_E.rds"))
-#X <- readRDS(paste0("fabio/",year,"_X.rds"))
-E <- readRDS("fabio/E.rds")
+load(paste0("gloria/EEMRIO_rdata/",year,"_Y.RData"))
+
+E <- readRDS("fabio_v1.2/E.rds")
 E <- E[[paste0(year)]]
-X <- readRDS("fabio/X.rds")
+X <- readRDS("fabio_v1.2/X.rds")
 X <- X[,paste0(year)]
 
 
@@ -35,65 +34,46 @@ e <- as.vector(E$blue) / X#change it to blue water
 e[!is.finite(e)] <- 0
 
 # aggregate countries in Y
-colnames(Y) <- rep(1:49, each = 7)
+colnames(Y) <- rep(1:164, each = 6)
 Y <- agg(Y)
 # Y <- rbind(matrix(0,nrow(E),49),Y)
 
 
 #--------------------------
-# 130 products version
-#--------------------------
-#L <- readRDS(paste0("/mnt/nfs_fineprint/tmp/fabio/hybrid/",year,"_B.rds"))
-# calculate multipliers
-#MP <- e * L
-# calculate footprints
-#FP <- MP %*% Y
-#FP <- t(FP)
-#colnames(FP) <- rep(1:192, each = 130)
-#FP <- agg(FP)
-#FP <- t(FP)
-
-# write results
-#rownames(FP) <- regions$Country
-#colnames(FP) <- regions_exio$EXIOregion
-#write.csv2(FP, "footprints_2013_mass.csv")
-#sum(FP)
-
-#--------------------------
 # mass-based allocation
 #--------------------------
-L <- readRDS(paste0("fabio/",year,"_B_inv_mass.rds"))
+L <- readRDS(paste0("fabio_v1.2/",year,"_B_inv_mass.rds"))
 # calculate multipliers
 MP <- e * L
 # calculate footprints
 FP <- MP %*% Y
 FP <- t(FP)
-colnames(FP) <- rep(1:192, each = 125)
+colnames(FP) <- rep(1:192, each = 123)
 FP <- agg(FP)
 FP <- t(FP)
 
 # write results
 rownames(FP) <- regions$Country
-colnames(FP) <- regions_exio$EXIOregion
-write.csv2(FP, paste0("footprints_",year,"_mass.csv"))
+colnames(FP) <- regions_gloria$gloriaregion
+write.csv(FP, paste0("footprints_",year,"_mass.csv"))
 
 #--------------------------
 # price-based allocation
 #--------------------------
-L <- readRDS(paste0("fabio/",year,"_B_inv_value.rds"))
+L <- readRDS(paste0("fabio_v1.2/",year,"_B_inv_value.rds"))
 # calculate multipliers
 MP <- e * L
 # calculate footprints
 FP <- MP %*% Y
 FP <- t(FP)
-colnames(FP) <- rep(1:192, each = 125)
+colnames(FP) <- rep(1:192, each = 123)
 FP <- agg(FP)
 FP <- t(FP)
 
 # write results
 rownames(FP) <- regions$Country
-colnames(FP) <- regions_exio$EXIOregion
-write.csv2(FP, paste0("footprints_",year,"_price.csv"))
+colnames(FP) <- regions_gloria$gloriaregion
+write.csv(FP, paste0("footprints_",year,"_price.csv"))
 
 #--------------------------
 # price-based allocation FP EU

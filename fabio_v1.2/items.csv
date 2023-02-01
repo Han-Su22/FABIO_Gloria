@@ -1,0 +1,124 @@
+comm_code,item_code,item,comm_group,unit,moisture,com_code,fao_code,com_name,
+c001,2807,Rice and products,Cereals,tonnes,0.14,c001,2805,Rice (Milled Equivalent),FALSE
+c002,2511,Wheat and products,Cereals,tonnes,0.14,c002,2511,Wheat and products,TRUE
+c003,2513,Barley and products,Cereals,tonnes,0.14,c003,2513,Barley and products,TRUE
+c004,2514,Maize and products,Cereals,tonnes,0.14,c004,2514,Maize and products,TRUE
+c005,2515,Rye and products,Cereals,tonnes,0.14,c005,2515,Rye and products,TRUE
+c006,2516,Oats,Cereals,tonnes,0.14,c006,2516,Oats,TRUE
+c007,2517,Millet and products,Cereals,tonnes,0.12,c007,2517,Millet and products,TRUE
+c008,2518,Sorghum and products,Cereals,tonnes,0.11,c008,2518,Sorghum and products,TRUE
+c009,2520,"Cereals, Other",Cereals,tonnes,0.14,c009,2520,"Cereals, Other",TRUE
+c010,2531,Potatoes and products,Roots and tubers,tonnes,0.78,c010,2531,Potatoes and products,TRUE
+c011,2532,Cassava and products,Roots and tubers,tonnes,0.7,c011,2532,Cassava and products,TRUE
+c012,2533,Sweet potatoes,Roots and tubers,tonnes,0.7,c012,2533,Sweet potatoes,TRUE
+c013,2534,"Roots, Other",Roots and tubers,tonnes,0.75,c013,2534,"Roots, Other",TRUE
+c014,2535,Yams,Roots and tubers,tonnes,0.74,c014,2535,Yams,TRUE
+c015,2536,Sugar cane,Sugar crops,tonnes,0.825,c015,2536,Sugar cane,TRUE
+c016,2537,Sugar beet,Sugar crops,tonnes,0.77,c016,2537,Sugar beet,TRUE
+c017,2546,Beans,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.8,c017,2546,Beans,TRUE
+c018,2547,Peas,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.83,c018,2547,Peas,TRUE
+c019,2549,"Pulses, Other and products","Vegetables, fruit, nuts, pulses, spices",tonnes,0.1,c019,2549,"Pulses, Other and products",TRUE
+c020,2551,Nuts and products,"Vegetables, fruit, nuts, pulses, spices",tonnes,0,c020,2551,Nuts and products,TRUE
+c021,2555,Soyabeans,Oil crops,tonnes,0.1,c021,2555,Soyabeans,TRUE
+c022,2552,Groundnuts,Oil crops,tonnes,0.06,c022,2556,Groundnuts (Shelled Eq),FALSE
+c023,2557,Sunflower seed,Oil crops,tonnes,0.07,c023,2557,Sunflower seed,TRUE
+c024,2558,Rape and Mustardseed,Oil crops,tonnes,0.12,c024,2558,Rape and Mustardseed,TRUE
+c025,328,Seed cotton,Oil crops,tonnes,0.1,c025,328,Seed cotton,TRUE
+c026,2560,Coconuts - Incl Copra,Oil crops,tonnes,0.4,c026,2560,Coconuts - Incl Copra,TRUE
+c027,2561,Sesame seed,Oil crops,tonnes,0.06,c027,2561,Sesame seed,TRUE
+c028,254,"Oil, palm fruit",Oil crops,tonnes,0,c028,254,"Oil, palm fruit",TRUE
+c029,2563,Olives (including preserved),Oil crops,tonnes,0,c029,2563,Olives (including preserved),TRUE
+c030,2570,"Oilcrops, Other",Oil crops,tonnes,0.1,c030,2570,"Oilcrops, Other",TRUE
+c031,2601,Tomatoes and products,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.94,c031,2601,Tomatoes and products,TRUE
+c032,2602,Onions,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.89,c032,2602,Onions,TRUE
+c033,2605,"Vegetables, Other","Vegetables, fruit, nuts, pulses, spices",tonnes,0.95,c033,2605,"Vegetables, Other",TRUE
+c034,2611,"Oranges, Mandarines","Vegetables, fruit, nuts, pulses, spices",tonnes,0.86,c034,2611,"Oranges, Mandarines",TRUE
+c035,2612,"Lemons, Limes and products","Vegetables, fruit, nuts, pulses, spices",tonnes,0,c035,2612,"Lemons, Limes and products",TRUE
+c036,2613,Grapefruit and products,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.88,c036,2613,Grapefruit and products,TRUE
+c037,2614,"Citrus, Other","Vegetables, fruit, nuts, pulses, spices",tonnes,0,c037,2614,"Citrus, Other",TRUE
+c038,2615,Bananas,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.75,c038,2615,Bananas,TRUE
+c039,2616,Plantains,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.66,c039,2616,Plantains,TRUE
+c040,2617,Apples and products,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.85,c040,2617,Apples and products,TRUE
+c041,2618,Pineapples and products,"Vegetables, fruit, nuts, pulses, spices",tonnes,0,c041,2618,Pineapples and products,TRUE
+c042,2619,Dates,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.22,c042,2619,Dates,TRUE
+c043,2620,Grapes and products (excl wine),"Vegetables, fruit, nuts, pulses, spices",tonnes,0.81,c043,2620,Grapes and products (excl wine),TRUE
+c044,2625,"Fruits, Other","Vegetables, fruit, nuts, pulses, spices",tonnes,0.85,c044,2625,"Fruits, Other",TRUE
+c045,2630,Coffee and products,"Coffee, tea, cocoa",tonnes,0,c045,2630,Coffee and products,TRUE
+c046,2633,Cocoa Beans and products,"Coffee, tea, cocoa",tonnes,0.1,c046,2633,Cocoa Beans and products,TRUE
+c047,2635,Tea (including mate),"Coffee, tea, cocoa",tonnes,0.1,c047,2635,Tea (including mate),TRUE
+c048,677,Hops,"Vegetables, fruit, nuts, pulses, spices",tonnes,0,c048,677,Hops,TRUE
+c049,2640,Pepper,"Vegetables, fruit, nuts, pulses, spices",tonnes,0,c049,2640,Pepper,TRUE
+c050,2641,Pimento,"Vegetables, fruit, nuts, pulses, spices",tonnes,0,c050,2641,Pimento,TRUE
+c051,2642,Cloves,"Vegetables, fruit, nuts, pulses, spices",tonnes,0.05,c051,2642,Cloves,TRUE
+c052,2645,"Spices, Other","Vegetables, fruit, nuts, pulses, spices",tonnes,0,c052,2645,"Spices, Other",TRUE
+c053,2662,Jute,Fibre crops,tonnes,0,c053,2662,Jute,TRUE
+c054,2663,Jute-Like Fibres,Fibre crops,tonnes,0,c054,2663,Jute-Like Fibres,TRUE
+c055,2664,"Soft-Fibres, Other",Fibre crops,tonnes,0,c055,2664,"Soft-Fibres, Other",TRUE
+c056,2665,Sisal,Fibre crops,tonnes,0,c056,2665,Sisal,TRUE
+c057,2666,Abaca,Fibre crops,tonnes,0,c057,2666,Abaca,TRUE
+c058,2667,"Hard Fibres, Other",Fibre crops,tonnes,0,c058,2667,"Hard Fibres, Other",TRUE
+c059,2671,Tobacco,"Tobacco, rubber",tonnes,0,c059,2671,Tobacco,TRUE
+c060,2672,Rubber,"Tobacco, rubber",tonnes,0,c060,2672,Rubber,TRUE
+c061,2000,Fodder crops,Fodder crops,tonnes,0.85,c061,2000,Fodder crops,TRUE
+c062,2001,Grazing,Grazing,tonnes,0.8,c062,2001,Grazing,TRUE
+c063,2559,Cottonseed,Fibre crops,tonnes,0.1,c063,2559,Cottonseed,TRUE
+c064,2562,Palm kernels,Oil crops,tonnes,0.1,c064,2562,Palm kernels,TRUE
+c065,2541,Sugar non-centrifugal,"Sugar, sweeteners",tonnes,0.01,c065,2541,Sugar non-centrifugal,TRUE
+c066,2542,Sugar (Raw Equivalent),"Sugar, sweeteners",tonnes,0,c066,2818,"Sugar, Refined Equiv",FALSE
+c067,2543,"Sweeteners, Other","Sugar, sweeteners",tonnes,0.1,c067,2543,"Sweeteners, Other",TRUE
+c068,2571,Soyabean Oil,Vegetable oils,tonnes,0,c068,2571,Soyabean Oil,TRUE
+c069,2572,Groundnut Oil,Vegetable oils,tonnes,0,c069,2572,Groundnut Oil,TRUE
+c070,2573,Sunflowerseed Oil,Vegetable oils,tonnes,0,c070,2573,Sunflowerseed Oil,TRUE
+c071,2574,Rape and Mustard Oil,Vegetable oils,tonnes,0,c071,2574,Rape and Mustard Oil,TRUE
+c072,2575,Cottonseed Oil,Vegetable oils,tonnes,0,c072,2575,Cottonseed Oil,TRUE
+c073,2576,Palmkernel Oil,Vegetable oils,tonnes,0,c073,2576,Palmkernel Oil,TRUE
+c074,2577,Palm Oil,Vegetable oils,tonnes,0,c074,2577,Palm Oil,TRUE
+c075,2578,Coconut Oil,Vegetable oils,tonnes,0,c075,2578,Coconut Oil,TRUE
+c076,2579,Sesameseed Oil,Vegetable oils,tonnes,0,c076,2579,Sesameseed Oil,TRUE
+c077,2580,Olive Oil,Vegetable oils,tonnes,0,c077,2580,Olive Oil,TRUE
+c078,2581,Ricebran Oil,Vegetable oils,tonnes,0,c078,2581,Ricebran Oil,TRUE
+c079,2582,Maize Germ Oil,Vegetable oils,tonnes,0,c079,2582,Maize Germ Oil,TRUE
+c080,2586,"Oilcrops Oil, Other",Vegetable oils,tonnes,0,c080,2586,"Oilcrops Oil, Other",TRUE
+c081,2590,Soyabean Cake,Oil cakes,tonnes,0.1,c081,2590,Soyabean Cake,TRUE
+c082,2591,Groundnut Cake,Oil cakes,tonnes,0.1,c082,2591,Groundnut Cake,TRUE
+c083,2592,Sunflowerseed Cake,Oil cakes,tonnes,0.1,c083,2592,Sunflowerseed Cake,TRUE
+c084,2593,Rape and Mustard Cake,Oil cakes,tonnes,0.1,c084,2593,Rape and Mustard Cake,TRUE
+c085,2594,Cottonseed Cake,Oil cakes,tonnes,0.1,c085,2594,Cottonseed Cake,TRUE
+c086,2595,Palmkernel Cake,Oil cakes,tonnes,0.1,c086,2595,Palmkernel Cake,TRUE
+c087,2596,Copra Cake,Oil cakes,tonnes,0.12,c087,2596,Copra Cake,TRUE
+c088,2597,Sesameseed Cake,Oil cakes,tonnes,0.1,c088,2597,Sesameseed Cake,TRUE
+c089,2598,"Oilseed Cakes, Other",Oil cakes,tonnes,0.1,c089,2598,"Oilseed Cakes, Other",TRUE
+c090,2655,Wine,Alcohol,tonnes,0.85,c090,2655,Wine,TRUE
+c091,2656,Beer,Alcohol,tonnes,0.95,c091,2656,Beer,TRUE
+c092,2657,"Beverages, Fermented",Alcohol,tonnes,0.9,c092,2657,"Beverages, Fermented",TRUE
+c093,2658,"Beverages, Alcoholic",Alcohol,tonnes,0.8,c093,2658,"Beverages, Alcoholic",TRUE
+c094,2659,"Alcohol, Non-Food",Ethanol,tonnes,0.2,c094,2659,"Alcohol, Non-Food",TRUE
+c095,2661,Cotton lint,Fibre crops,tonnes,0.1,c095,2661,Cotton lint,TRUE
+c096,866,Cattle,Live animals,1000 Head,0,c096,866,Cattle,TRUE
+c097,946,Buffaloes,Live animals,1000 Head,0,c097,946,Buffaloes,TRUE
+c098,976,Sheep,Live animals,1000 Head,0,c098,976,Sheep,TRUE
+c099,1016,Goats,Live animals,1000 Head,0,c099,1016,Goats,TRUE
+c100,1034,Pigs,Live animals,1000 Head,0,c100,1034,Pigs,TRUE
+c101,2029,Poultry Birds,Live animals,1000 Head,0,c101,2029,Poultry Birds,TRUE
+c102,1096,Horses,Live animals,1000 Head,0,c102,1096,Horses,TRUE
+c103,1107,Asses,Live animals,1000 Head,0,c103,1107,Asses,TRUE
+c104,1110,Mules,Live animals,1000 Head,0,c104,1110,Mules,TRUE
+c105,1126,Camels,Live animals,1000 Head,0,c105,1126,Camels,TRUE
+c106,1157,"Camelids, other",Live animals,1000 Head,0,c106,1157,"Camelids, other",TRUE
+c107,1140,Rabbits and hares,Live animals,1000 Head,0,c107,1140,Rabbits and hares,TRUE
+c108,1150,"Rodents, other",Live animals,1000 Head,0,c108,1150,"Rodents, other",TRUE
+c109,2848,Milk - Excluding Butter,Milk,tonnes,0.875,c109,2848,Milk - Excluding Butter,TRUE
+c110,2740,"Butter, Ghee",Milk,tonnes,0.15,c110,2740,"Butter, Ghee",TRUE
+c111,2744,Eggs,Eggs,tonnes,0.744,c111,2744,Eggs,TRUE
+c112,2746,Wool (Clean Eq.),"Hides, skins, wool",tonnes,0,c112,2746,Wool (Clean Eq.),TRUE
+c113,2731,Bovine Meat,Meat,tonnes,0.65,c113,2731,Bovine Meat,TRUE
+c114,2732,Mutton & Goat Meat,Meat,tonnes,0.6,c114,2732,Mutton & Goat Meat,TRUE
+c115,2733,Pigmeat,Meat,tonnes,0.6,c115,2733,Pigmeat,TRUE
+c116,2734,Poultry Meat,Meat,tonnes,0.6,c116,2734,Poultry Meat,TRUE
+c117,2735,"Meat, Other",Meat,tonnes,0.65,c117,2735,"Meat, Other",TRUE
+c118,2736,"Offals, Edible",Meat,tonnes,0.65,c118,2736,"Offals, Edible",TRUE
+c119,2737,"Fats, Animals, Raw",Animal fats,tonnes,0.01,c119,2737,"Fats, Animals, Raw",TRUE
+c120,2748,Hides and skins,"Hides, skins, wool",tonnes,0,c120,2748,Hides and skins,TRUE
+c121,2745,Honey,Honey,tonnes,0.17,c121,2745,Honey,TRUE
+c122,2747,Silk,"Hides, skins, wool",tonnes,0,c122,2747,Silk,TRUE
+c123,2960,"Fish, Seafood",Fish,tonnes,0.7,c123,2960,"Fish, Seafood",TRUE

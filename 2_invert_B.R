@@ -17,30 +17,26 @@ years <- 1995:1996
 for(year in years){
   print(paste0(year))
   
-  if(year<1995){
-    load(paste0("exiobase/pxp/1995_L.RData"))
-    load(paste0("exiobase/pxp/1995_x.RData"))
-  } else {
-    load(paste0("exiobase/pxp/", year, "_x.RData"))
-    load(paste0("exiobase/pxp/", year, "_L.RData"))
-  }
+  load(paste0("gloria/EEMRIO_rdata/", year, "_x.RData"))
+  load(paste0("gloria/EEMRIO_rdata/", year, "_L.RData"))
+
   
   D_inv <- L
   rm(L); gc()
   
-  B <- readRDS(paste0("fabio/hybrid/", year, "_B.rds"))
-  B <- t(t(B)/x)
+  B <- readRDS(paste0("fabio_v1.2/hybrid/", year, "_B.rds"))
+  B <- t(t(B)/x[,1])
   B[!is.finite(B)] <- 0
   B[B<0] <- 0
   B <- 0-B
   
-  A_inv <- readRDS(paste0("fabio/", year, "_L_mass.rds"))
+  A_inv <- readRDS(paste0("fabio_v1.2/", year, "_L_mass.rds"))
   B_inv <- -A_inv %*% B %*% D_inv
-  saveRDS(B_inv, paste0("fabio/", year, "_B_inv_mass.rds"))
+  saveRDS(B_inv, paste0("fabio_v1.2/", year, "_B_inv_mass.rds"))
   
-  A_inv <- readRDS(paste0("fabio/", year, "_L_value.rds"))
+  A_inv <- readRDS(paste0("fabio_v1.2/", year, "_L_value.rds"))
   B_inv <- -A_inv %*% B %*% D_inv
-  saveRDS(B_inv, paste0("fabio/", year, "_B_inv_value.rds"))
+  saveRDS(B_inv, paste0("fabio_v1.2/", year, "_B_inv_value.rds"))
   
 }
 #}

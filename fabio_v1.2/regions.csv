@@ -1,0 +1,193 @@
+iso3c,area_code,area,region,EU27
+ARM,1,Armenia,Former USSR,FALSE
+AFG,2,Afghanistan,South Asia,FALSE
+ALB,3,Albania,Eastern Europe,FALSE
+DZA,4,Algeria,Northern Africa,FALSE
+AGO,7,Angola,Southern Africa,FALSE
+ATG,8,Antigua and Barbuda,Central America,FALSE
+ARG,9,Argentina,South America,FALSE
+AUS,10,Australia,Oceania,FALSE
+AUT,11,Austria,OECD Europe,TRUE
+BHS,12,Bahamas,Central America,FALSE
+BHR,13,Bahrain,Middle East,FALSE
+BRB,14,Barbados,Central America,FALSE
+BLX,15,Belgium-Luxembourg,OECD Europe,TRUE
+BGD,16,Bangladesh,South Asia,FALSE
+BOL,19,Bolivia (Plurinational State of),South America,FALSE
+BWA,20,Botswana,Southern Africa,FALSE
+BRA,21,Brazil,South America,FALSE
+BLZ,23,Belize,Central America,FALSE
+SLB,25,Solomon Islands,Oceania,FALSE
+BRN,26,Brunei Darussalam,South East Asia,FALSE
+BGR,27,Bulgaria,Eastern Europe,TRUE
+MMR,28,Myanmar,South East Asia,FALSE
+BDI,29,Burundi,Eastern Africa,FALSE
+CMR,32,Cameroon,Western Africa,FALSE
+CAN,33,Canada,Canada,FALSE
+CPV,35,Cabo Verde,Western Africa,FALSE
+CAF,37,Central African Republic,Western Africa,FALSE
+LKA,38,Sri Lanka,South Asia,FALSE
+TCD,39,Chad,Western Africa,FALSE
+CHL,40,Chile,South America,FALSE
+CHN,41,"China, mainland",East Asia,FALSE
+COL,44,Colombia,South America,FALSE
+COG,46,Congo,Western Africa,FALSE
+CRI,48,Costa Rica,Central America,FALSE
+CUB,49,Cuba,Central America,FALSE
+CYP,50,Cyprus,Middle East,TRUE
+CSK,51,Czechoslovakia,OECD Europe,FALSE
+AZE,52,Azerbaijan,Former USSR,FALSE
+BEN,53,Benin,Western Africa,FALSE
+DNK,54,Denmark,OECD Europe,TRUE
+DMA,55,Dominica,Central America,FALSE
+DOM,56,Dominican Republic,Central America,FALSE
+BLR,57,Belarus,Former USSR,FALSE
+ECU,58,Ecuador,South America,FALSE
+EGY,59,Egypt,Northern Africa,FALSE
+SLV,60,El Salvador,Central America,FALSE
+EST,63,Estonia,Former USSR,TRUE
+FJI,66,Fiji,Oceania,FALSE
+FIN,67,Finland,OECD Europe,TRUE
+FRA,68,France,OECD Europe,TRUE
+PYF,70,French Polynesia,Oceania,FALSE
+DJI,72,Djibouti,Eastern Africa,FALSE
+GEO,73,Georgia,Former USSR,FALSE
+GAB,74,Gabon,Western Africa,FALSE
+GMB,75,Gambia,Western Africa,FALSE
+DEU,79,Germany,OECD Europe,TRUE
+BIH,80,Bosnia and Herzegovina,Eastern Europe,FALSE
+GHA,81,Ghana,Western Africa,FALSE
+KIR,83,Kiribati,Oceania,FALSE
+GRC,84,Greece,OECD Europe,TRUE
+GRD,86,Grenada,Central America,FALSE
+GTM,89,Guatemala,Central America,FALSE
+GIN,90,Guinea,Western Africa,FALSE
+GUY,91,Guyana,South America,FALSE
+HTI,93,Haiti,Central America,FALSE
+HND,95,Honduras,Central America,FALSE
+HKG,96,"China, Hong Kong SAR",East Asia,FALSE
+HUN,97,Hungary,Eastern Europe,TRUE
+HRV,98,Croatia,Eastern Europe,TRUE
+ISL,99,Iceland,OECD Europe,FALSE
+IND,100,India,South Asia,FALSE
+IDN,101,Indonesia,South East Asia,FALSE
+IRN,102,Iran (Islamic Republic of),Middle East,FALSE
+IRQ,103,Iraq,Middle East,FALSE
+IRL,104,Ireland,OECD Europe,TRUE
+ISR,105,Israel,Middle East,FALSE
+ITA,106,Italy,OECD Europe,TRUE
+CIV,107,Côte d'Ivoire,Western Africa,FALSE
+KAZ,108,Kazakhstan,Former USSR,FALSE
+JAM,109,Jamaica,Central America,FALSE
+JPN,110,Japan,Japan,FALSE
+JOR,112,Jordan,Middle East,FALSE
+KGZ,113,Kyrgyzstan,Former USSR,FALSE
+KEN,114,Kenya,Eastern Africa,FALSE
+KHM,115,Cambodia,South East Asia,FALSE
+PRK,116,Democratic People's Republic of Korea,East Asia,FALSE
+KOR,117,Republic of Korea,East Asia,FALSE
+KWT,118,Kuwait,Middle East,FALSE
+LVA,119,Latvia,Former USSR,TRUE
+LAO,120,Lao People's Democratic Republic,South East Asia,FALSE
+LBN,121,Lebanon,Middle East,FALSE
+LSO,122,Lesotho,Southern Africa,FALSE
+LBR,123,Liberia,Western Africa,FALSE
+LBY,124,Libya,Northern Africa,FALSE
+LTU,126,Lithuania,Former USSR,TRUE
+MAC,128,"China, Macao SAR",East Asia,FALSE
+MDG,129,Madagascar,Eastern Africa,FALSE
+MWI,130,Malawi,Southern Africa,FALSE
+MYS,131,Malaysia,South East Asia,FALSE
+MDV,132,Maldives,South Asia,FALSE
+MLI,133,Mali,Western Africa,FALSE
+MLT,134,Malta,OECD Europe,TRUE
+MRT,136,Mauritania,Western Africa,FALSE
+MUS,137,Mauritius,Eastern Africa,FALSE
+MEX,138,Mexico,Central America,FALSE
+MNG,141,Mongolia,East Asia,FALSE
+MAR,143,Morocco,Northern Africa,FALSE
+MOZ,144,Mozambique,Southern Africa,FALSE
+MDA,146,Republic of Moldova,Former USSR,FALSE
+NAM,147,Namibia,Southern Africa,FALSE
+NPL,149,Nepal,South Asia,FALSE
+NLD,150,Netherlands,OECD Europe,TRUE
+ANT,151,Netherlands Antilles,Central America,FALSE
+NCL,153,New Caledonia,Oceania,FALSE
+MKD,154,North Macedonia,Eastern Europe,FALSE
+VUT,155,Vanuatu,Oceania,FALSE
+NZL,156,New Zealand,Oceania,FALSE
+NIC,157,Nicaragua,Central America,FALSE
+NER,158,Niger,Western Africa,FALSE
+NGA,159,Nigeria,Western Africa,FALSE
+NOR,162,Norway,OECD Europe,FALSE
+PAK,165,Pakistan,South Asia,FALSE
+PAN,166,Panama,Central America,FALSE
+CZE,167,Czech Republic,Eastern Europe,TRUE
+PNG,168,Papua New Guinea,Oceania,FALSE
+PRY,169,Paraguay,South America,FALSE
+PER,170,Peru,South America,FALSE
+PHL,171,Philippines,South East Asia,FALSE
+POL,173,Poland,Eastern Europe,TRUE
+PRT,174,Portugal,OECD Europe,TRUE
+GNB,175,Guinea-Bissau,Western Africa,FALSE
+TLS,176,Timor-Leste,South East Asia,FALSE
+PRI,177,Puerto Rico,Central America,FALSE
+ERI,178,Eritrea,Eastern Africa,FALSE
+QAT,179,Qatar,Middle East,FALSE
+ZWE,181,Zimbabwe,Southern Africa,FALSE
+ROU,183,Romania,Eastern Europe,TRUE
+RWA,184,Rwanda,Eastern Africa,FALSE
+RUS,185,Russian Federation,Former USSR,FALSE
+SCG,186,Serbia and Montenegro,OECD Europe,FALSE
+KNA,188,Saint Kitts and Nevis,Central America,FALSE
+LCA,189,Saint Lucia,Central America,FALSE
+VCT,191,Saint Vincent and the Grenadines,Central America,FALSE
+STP,193,Sao Tome and Principe,Western Africa,FALSE
+SAU,194,Saudi Arabia,Middle East,FALSE
+SEN,195,Senegal,Western Africa,FALSE
+SLE,197,Sierra Leone,Western Africa,FALSE
+SVN,198,Slovenia,Eastern Europe,TRUE
+SVK,199,Slovakia,Eastern Europe,TRUE
+SGP,200,Singapore,South East Asia,FALSE
+SOM,201,Somalia,Eastern Africa,FALSE
+ZAF,202,South Africa,Southern Africa,FALSE
+ESP,203,Spain,OECD Europe,TRUE
+SUR,207,Suriname,South America,FALSE
+TJK,208,Tajikistan,Former USSR,FALSE
+SWZ,209,Eswatini,Southern Africa,FALSE
+SWE,210,Sweden,OECD Europe,TRUE
+CHE,211,Switzerland,OECD Europe,FALSE
+SYR,212,Syrian Arab Republic,Middle East,FALSE
+TKM,213,Turkmenistan,Former USSR,FALSE
+TWN,214,"China, Taiwan Province of",East Asia,FALSE
+TZA,215,United Republic of Tanzania,Southern Africa,FALSE
+THA,216,Thailand,South East Asia,FALSE
+TGO,217,Togo,Western Africa,FALSE
+TTO,220,Trinidad and Tobago,Central America,FALSE
+OMN,221,Oman,Middle East,FALSE
+TUN,222,Tunisia,Northern Africa,FALSE
+TUR,223,Turkey,Middle East,FALSE
+ARE,225,United Arab Emirates,Middle East,FALSE
+UGA,226,Uganda,Eastern Africa,FALSE
+SUN,228,USSR,Former USSR,FALSE
+GBR,229,United Kingdom,OECD Europe,FALSE
+UKR,230,Ukraine,Former USSR,FALSE
+USA,231,United States of America,USA,FALSE
+BFA,233,Burkina Faso,Western Africa,FALSE
+URY,234,Uruguay,South America,FALSE
+UZB,235,Uzbekistan,Former USSR,FALSE
+VEN,236,Venezuela (Bolivarian Republic of),South America,FALSE
+VNM,237,Viet Nam,South East Asia,FALSE
+ETH,238,Ethiopia,Eastern Africa,FALSE
+WSM,244,Samoa,Oceania,FALSE
+YUG,248,Yugoslav SFR,Eastern Europe,FALSE
+YEM,249,Yemen,Middle East,FALSE
+COD,250,Democratic Republic of the Congo,Western Africa,FALSE
+ZMB,251,Zambia,Southern Africa,FALSE
+BEL,255,Belgium,OECD Europe,TRUE
+LUX,256,Luxembourg,OECD Europe,TRUE
+SRB,272,Serbia,OECD Europe,FALSE
+MNE,273,Montenegro,OECD Europe,FALSE
+SDN,276,Sudan,Eastern Africa,FALSE
+SSD,277,South Sudan,Eastern Africa,FALSE
+ROW,999,RoW,"",FALSE

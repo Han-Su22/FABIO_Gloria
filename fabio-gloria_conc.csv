@@ -1,0 +1,193 @@
+FAO_code,Country,ISO,FABIO_code,GLORIA_acronyms,GLORIA,GLORIA_code
+1,Armenia,ARM,1,ARM,Armenia,10
+2,Afghanistan,AFG,2,AFG,Afghanistan,5
+3,Albania,ALB,3,ALB,Albania,7
+4,Algeria,DZA,4,DZA,Algeria,49
+7,Angola,AGO,5,AGO,Angola,6
+8,Antigua and Barbuda,ATG,6,XAM,Rest of Americas,1
+9,Argentina,ARG,7,ARG,Argentina,9
+10,Australia,AUS,8,AUS,Australia,11
+11,Austria,AUT,9,AUT,Austria,12
+12,Bahamas,BHS,10,BHS,Bahamas,21
+13,Bahrain,BHR,11,BHR,Bahrain,20
+14,Barbados,BRB,12,XAM,Rest of Americas,1
+15,Belgium-Luxembourg,BLX,13,NA,NA,165
+16,Bangladesh,BGD,14,BGD,Bangladesh,18
+19,Bolivia (Plurinational State of),BOL,15,BOL,Bolivia,25
+20,Botswana,BWA,16,BWA,Botswana,29
+21,Brazil,BRA,17,BRA,Brazil,26
+23,Belize,BLZ,18,BLZ,Belize,24
+25,Solomon Islands,SLB,19,XAS,Rest of Asia-Pacific,4
+26,Brunei Darussalam,BRN,20,BRN,Brunei Darussalam,27
+27,Bulgaria,BGR,21,BGR,Bulgaria,19
+28,Myanmar,MMR,22,MMR,Myanmar,104
+29,Burundi,BDI,23,BDI,Burundi,14
+32,Cameroon,CMR,24,CMR,Cameroon,36
+33,Canada,CAN,25,CAN,Canada,31
+35,Cabo Verde,CPV,26,XAF,Rest of Africa,3
+37,Central African Republic,CAF,27,CAF,Central African Republic,30
+38,Sri Lanka,LKA,28,LKA,Sri Lanka,93
+39,Chad,TCD,29,TCD,Chad,146
+40,Chile,CHL,30,CHL,Chile,33
+41,"China, mainland",CHN,31,CHN,China,34
+44,Colombia,COL,32,COL,Colombia,39
+46,Congo,COG,33,COG,Rep Congo,38
+48,Costa Rica,CRI,34,CRI,Costa Rica,40
+49,Cuba,CUB,35,CUB,Cuba,41
+50,Cyprus,CYP,36,CYP,Cyprus,42
+51,Czechoslovakia,CSK,37,NA,NA,165
+52,Azerbaijan,AZE,38,AZE,Azerbaijan,13
+53,Benin,BEN,39,BEN,Benin,16
+54,Denmark,DNK,40,DNK,Denmark,47
+55,Dominica,DMA,41,XAM,Rest of Americas,1
+56,Dominican Republic,DOM,42,DOM,Dominican Republic,48
+57,Belarus,BLR,43,BLR,Belarus,23
+58,Ecuador,ECU,44,ECU,Ecuador,50
+59,Egypt,EGY,45,EGY,Egypt,51
+60,El Salvador,SLV,46,SLV,El Salvador,138
+63,Estonia,EST,47,EST,Estonia,54
+66,Fiji,FJI,48,XAS,Rest of Asia-Pacific,4
+67,Finland,FIN,49,FIN,Finland,56
+68,France,FRA,50,FRA,France,57
+70,French Polynesia,PYF,51,XAS,Rest of Asia-Pacific,4
+72,Djibouti,DJI,52,DJI,Djibouti,45
+73,Georgia,GEO,53,GEO,Georgia,60
+74,Gabon,GAB,54,GAB,Gabon,58
+75,Gambia,GMB,55,GMB,Gambia,63
+79,Germany,DEU,56,DEU,Germany,44
+80,Bosnia and Herzegovina,BIH,57,BIH,Bosnia and Herzegovina,22
+81,Ghana,GHA,58,GHA,Ghana,61
+83,Kiribati,KIR,59,XAS,Rest of Asia-Pacific,4
+84,Greece,GRC,60,GRC,Greece,65
+86,Grenada,GRD,61,XAM,Rest of Americas,1
+89,Guatemala,GTM,62,GTM,Guatemala,66
+90,Guinea,GIN,63,GIN,Guinea,62
+91,Guyana,GUY,64,XAM,Rest of Americas,1
+93,Haiti,HTI,65,HTI,Haiti,70
+95,Honduras,HND,66,HND,Honduras,67
+96,"China, Hong Kong SAR",HKG,67,HKG,Hong Kong,68
+97,Hungary,HUN,68,HUN,Hungary,71
+98,Croatia,HRV,69,HRV,Croatia,69
+99,Iceland,ISL,70,ISL,Iceland,77
+100,India,IND,71,IND,India,73
+101,Indonesia,IDN,72,IDN,Indonesia,72
+102,Iran (Islamic Republic of),IRN,73,IRN,Iran,75
+103,Iraq,IRQ,74,IRQ,Iraq,76
+104,Ireland,IRL,75,IRL,Ireland,74
+105,Israel,ISR,76,ISR,Israel,78
+106,Italy,ITA,77,ITA,Italy,79
+107,Côte d'Ivoire,CIV,78,CIV,Cote d'Ivoire,35
+108,Kazakhstan,KAZ,79,KAZ,Kazakhstan,83
+109,Jamaica,JAM,80,JAM,Jamaica,80
+110,Japan,JPN,81,JPN,Japan,82
+112,Jordan,JOR,82,JOR,Jordan,81
+113,Kyrgyzstan,KGZ,83,KGZ,Kyrgyzstan,85
+114,Kenya,KEN,84,KEN,Kenya,84
+115,Cambodia,KHM,85,KHM,Cambodia,86
+116,Democratic People's Republic of Korea,PRK,86,PRK,North Korea,126
+117,Republic of Korea,KOR,87,KOR,South Korea,87
+118,Kuwait,KWT,88,KWT,Kuwait,88
+119,Latvia,LVA,89,LVA,Latvia,96
+120,Lao People's Democratic Republic,LAO,90,LAO,Laos,89
+121,Lebanon,LBN,91,LBN,Lebanon,90
+122,Lesotho,LSO,92,XAF,Rest of Africa,3
+123,Liberia,LBR,93,LBR,Liberia,91
+124,Libya,LBY,94,LBY,Libya,92
+126,Lithuania,LTU,95,LTU,Lithuania,94
+128,"China, Macao SAR",MAC,96,XAS,Rest of Asia-Pacific,4
+129,Madagascar,MDG,97,MDG,Madagascar,99
+130,Malawi,MWI,98,MWI,Malawi,108
+131,Malaysia,MYS,99,MYS,Malaysia,109
+132,Maldives,MDV,100,XAS,Rest of Asia-Pacific,4
+133,Mali,MLI,101,MLI,Mali,102
+134,Malta,MLT,102,MLT,Malta,103
+136,Mauritania,MRT,103,MRT,Mauritania,107
+137,Mauritius,MUS,104,XAF,Rest of Africa,3
+138,Mexico,MEX,105,MEX,Mexico,100
+141,Mongolia,MNG,106,MNG,Mongolia,105
+143,Morocco,MAR,107,MAR,Morocco,97
+144,Mozambique,MOZ,108,MOZ,Mozambique,106
+146,Republic of Moldova,MDA,109,MDA,Moldova,98
+147,Namibia,NAM,110,NAM,Namibia,110
+149,Nepal,NPL,111,NPL,Nepal,116
+150,Netherlands,NLD,112,NLD,Netherlands,114
+151,Netherlands Antilles,ANT,113,XAM,Rest of Americas,1
+153,New Caledonia,NCL,114,XAS,Rest of Asia-Pacific,4
+154,The former Yugoslav Republic of Macedonia,MKD,115,MKD,Macedonia,101
+155,Vanuatu,VUT,116,XAS,Rest of Asia-Pacific,4
+156,New Zealand,NZL,117,NZL,New Zealand,117
+157,Nicaragua,NIC,118,NIC,Nicaragua,113
+158,Niger,NER,119,NER,Niger,111
+159,Nigeria,NGA,120,NGA,Nigeria,112
+162,Norway,NOR,121,NOR,Norway,115
+165,Pakistan,PAK,122,PAK,Pakistan,119
+166,Panama,PAN,123,PAN,Panama,121
+167,Czech Republic,CZE,124,CZE,CSSR/Czech Republic (1990/1991),43
+168,Papua New Guinea,PNG,125,PNG,Papua New Guinea,124
+169,Paraguay,PRY,126,PRY,Paraguay,128
+170,Peru,PER,127,PER,Peru,122
+171,Philippines,PHL,128,PHL,Philippines,123
+173,Poland,POL,129,POL,Poland,125
+174,Portugal,PRT,130,PRT,Portugal,127
+175,Guinea-Bissau,GNB,131,XAF,Rest of Africa,3
+176,Timor-Leste,TLS,132,XAS,Rest of Asia-Pacific,4
+177,Puerto Rico,PRI,133,XAM,Rest of Americas,1
+178,Eritrea,ERI,134,ERI,Eritrea,52
+179,Qatar,QAT,135,QAT,Qatar,129
+181,Zimbabwe,ZWE,136,ZWE,Zimbabwe,164
+183,Romania,ROU,137,ROU,Romania,130
+184,Rwanda,RWA,138,RWA,Rwanda,132
+185,Russian Federation,RUS,139,RUS,USSR/Russian Federation (1990/1991),131
+186,Serbia and Montenegro,SCG,140,SRB,Yugoslavia/Serbia (1991/1992),140
+188,Saint Kitts and Nevis,KNA,141,XAM,Rest of Americas,1
+189,Saint Lucia,LCA,142,XAM,Rest of Americas,1
+191,Saint Vincent and the Grenadines,VCT,143,XAM,Rest of Americas,1
+193,Sao Tome and Principe,STP,144,XAF,Rest of Africa,3
+194,Saudi Arabia,SAU,145,SAU,Saudi Arabia,133
+195,Senegal,SEN,146,SEN,Senegal,135
+197,Sierra Leone,SLE,147,SLE,Sierra Leone,137
+198,Slovenia,SVN,148,SVN,Slovenia,143
+199,Slovakia,SVK,149,SVK,Slovakia,142
+200,Singapore,SGP,150,SGP,Singapore,136
+201,Somalia,SOM,151,SOM,Somalia,139
+202,South Africa,ZAF,152,ZAF,South Africa,162
+203,Spain,ESP,153,ESP,Spain,53
+207,Suriname,SUR,154,XAM,Rest of Americas,1
+208,Tajikistan,TJK,155,TJK,Tajikistan,149
+209,Swaziland,SWZ,156,XAF,Rest of Africa,3
+210,Sweden,SWE,157,SWE,Sweden,144
+211,Switzerland,CHE,158,CHE,Switzerland,32
+212,Syrian Arab Republic,SYR,159,SYR,Syria,145
+213,Turkmenistan,TKM,160,TKM,Turkmenistan,150
+214,"China, Taiwan Province of",TWN,161,XAS,Rest of Asia-Pacific,4
+215,United Republic of Tanzania,TZA,162,TZA,Tanzania,153
+216,Thailand,THA,163,THA,Thailand,148
+217,Togo,TGO,164,TGO,Togo,147
+220,Trinidad and Tobago,TTO,165,XAM,Rest of Americas,1
+221,Oman,OMN,166,OMN,Oman,118
+222,Tunisia,TUN,167,TUN,Tunisia,151
+223,Turkey,TUR,168,TUR,Turkey,152
+225,United Arab Emirates,ARE,169,ARE,United Arab Emirates,8
+226,Uganda,UGA,170,UGA,Uganda,154
+228,USSR,SUN,171,RUS,USSR/Russian Federation (1990/1991),131
+229,United Kingdom,GBR,172,GBR,United Kingdom,59
+230,Ukraine,UKR,173,UKR,Ukraine,155
+231,United States of America,USA,174,USA,United States of America,157
+233,Burkina Faso,BFA,175,BFA,Burkina Faso,17
+234,Uruguay,URY,176,URY,Uruguay,156
+235,Uzbekistan,UZB,177,UZB,Uzbekistan,158
+236,Venezuela (Bolivarian Republic of),VEN,178,VEN,Venezuela,159
+237,Viet Nam,VNM,179,VNM,Viet Nam,160
+238,Ethiopia,ETH,180,ETH,Ethiopia/DR Ethiopia (1992/1993),55
+244,Samoa,WSM,181,XAS,Rest of Asia-Pacific,4
+248,Yugoslav SFR,YUG,182,SRB,Yugoslavia/Serbia (1991/1992),140
+249,Yemen,YEM,183,YEM,Yemen Arab Republic/Yemen (1990/1991),161
+250,Democratic Republic of the Congo,COD,184,COD,DR Congo,37
+251,Zambia,ZMB,185,ZMB,Zambia,163
+255,Belgium,BEL,186,BEL,Belgium,15
+256,Luxembourg,LUX,187,LUX,Luxembourg,95
+272,Serbia,SRB,188,SRB,Yugoslavia/Serbia (1991/1992),140
+273,Montenegro,MNE,189,XEU,Rest of Europe,2
+276,Sudan,SDN,190,SDN,Sudan/North Sudan (2010/2011),141
+277,South Sudan,SSD,191,SDS,South Sudan,134
+999,RoW,ROW,192,NA,NA,165

@@ -1,0 +1,197 @@
+Country.Code;Country;GLORIA_region;GLORIA_acronyms;GLORIA_code
+1;Armenia;Armenia;ARM;10
+2;Afghanistan;Afghanistan;AFG;5
+3;Albania;Albania;ALB;7
+4;Algeria;Algeria;DZA;49
+7;Angola;Angola;AGO;6
+8;Antigua and Barbuda;Rest of Americas;XAM;1
+9;Argentina;Argentina;ARG;9
+10;Australia;Australia;AUS;11
+11;Austria;Austria;AUT;12
+12;Bahamas;Bahamas;BHS;21
+13;Bahrain;Bahrain;BHR;20
+14;Barbados;Rest of Americas;XAM;1
+15;Belgium-Luxembourg;NA;NA;165
+16;Bangladesh;Bangladesh;BGD;18
+18;Bhutan;Bhutan;BTN;28
+19;Bolivia (Plurinational State of);Bolivia;BOL;25
+20;Botswana;Botswana;BWA;29
+21;Brazil;Brazil;BRA;26
+23;Belize;Belize;BLZ;24
+25;Solomon Islands;Rest of Asia-Pacific;XAS;4
+26;Brunei Darussalam;Brunei Darussalam;BRN;27
+27;Bulgaria;Bulgaria;BGR;19
+28;Myanmar;Myanmar;MMR;104
+29;Burundi;Burundi;BDI;14
+32;Cameroon;Cameroon;CMR;36
+33;Canada;Canada;CAN;31
+35;Cabo Verde;Rest of Africa;XAF;3
+37;Central African Republic;Central African Republic;CAF;30
+38;Sri Lanka;Sri Lanka;LKA;93
+39;Chad;Chad;TCD;146
+40;Chile;Chile;CHL;33
+41;"China; mainland";China;CHN;34
+44;Colombia;Colombia;COL;39
+46;Congo;Rep Congo;COG;38
+48;Costa Rica;Costa Rica;CRI;40
+49;Cuba;Cuba;CUB;41
+50;Cyprus;Cyprus;CYP;42
+51;Czechoslovakia;NA;NA;165
+52;Azerbaijan;Azerbaijan;AZE;13
+53;Benin;Benin;BEN;16
+54;Denmark;Denmark;DNK;47
+55;Dominica;Rest of Americas;XAM;1
+56;Dominican Republic;Dominican Republic;DOM;48
+57;Belarus;Belarus;BLR;23
+58;Ecuador;Ecuador;ECU;50
+59;Egypt;Egypt;EGY;51
+60;El Salvador;El Salvador;SLV;138
+61;Equatorial Guinea;Equatorial Guinea;GNQ;64
+63;Estonia;Estonia;EST;54
+66;Fiji;Rest of Asia-Pacific;XAS;4
+67;Finland;Finland;FIN;56
+68;France;France;FRA;57
+70;French Polynesia;Rest of Asia-Pacific;XAS;4
+72;Djibouti;Djibouti;DJI;45
+73;Georgia;Georgia;GEO;60
+74;Gabon;Gabon;GAB;58
+75;Gambia;Gambia;GMB;63
+79;Germany;Germany;DEU;44
+80;Bosnia and Herzegovina;Bosnia and Herzegovina;BIH;22
+81;Ghana;Ghana;GHA;61
+83;Kiribati;Rest of Asia-Pacific;XAS;4
+84;Greece;Greece;GRC;65
+86;Grenada;Rest of Americas;XAM;1
+89;Guatemala;Guatemala;GTM;66
+90;Guinea;Guinea;GIN;62
+91;Guyana;Rest of Americas;XAM;1
+93;Haiti;Haiti;HTI;70
+95;Honduras;Honduras;HND;67
+96;"China; Hong Kong SAR";Hong Kong;HKG;68
+97;Hungary;Hungary;HUN;71
+98;Croatia;Croatia;HRV;69
+99;Iceland;Iceland;ISL;77
+100;India;India;IND;73
+101;Indonesia;Indonesia;IDN;72
+102;Iran (Islamic Republic of);Iran;IRN;75
+103;Iraq;Iraq;IRQ;76
+104;Ireland;Ireland;IRL;74
+105;Israel;Israel;ISR;78
+106;Italy;Italy;ITA;79
+107;Côte d'Ivoire;Cote d'Ivoire;CIV;35
+108;Kazakhstan;Kazakhstan;KAZ;83
+109;Jamaica;Jamaica;JAM;80
+110;Japan;Japan;JPN;82
+112;Jordan;Jordan;JOR;81
+113;Kyrgyzstan;Kyrgyzstan;KGZ;85
+114;Kenya;Kenya;KEN;84
+115;Cambodia;Cambodia;KHM;86
+116;Democratic People's Republic of Korea;North Korea;PRK;126
+117;Republic of Korea;South Korea;KOR;87
+118;Kuwait;Kuwait;KWT;88
+119;Latvia;Latvia;LVA;96
+120;Lao People's Democratic Republic;Laos;LAO;89
+121;Lebanon;Lebanon;LBN;90
+122;Lesotho;Rest of Africa;XAF;3
+123;Liberia;Liberia;LBR;91
+124;Libya;Libya;LBY;92
+126;Lithuania;Lithuania;LTU;94
+128;"China; Macao SAR";Rest of Asia-Pacific;XAS;4
+129;Madagascar;Madagascar;MDG;99
+130;Malawi;Malawi;MWI;108
+131;Malaysia;Malaysia;MYS;109
+132;Maldives;Rest of Asia-Pacific;XAS;4
+133;Mali;Mali;MLI;102
+134;Malta;Malta;MLT;103
+136;Mauritania;Mauritania;MRT;107
+137;Mauritius;Rest of Africa;XAF;3
+138;Mexico;Mexico;MEX;100
+141;Mongolia;Mongolia;MNG;105
+143;Morocco;Morocco;MAR;97
+144;Mozambique;Mozambique;MOZ;106
+146;Republic of Moldova;Moldova;MDA;98
+147;Namibia;Namibia;NAM;110
+149;Nepal;Nepal;NPL;116
+150;Netherlands;Netherlands;NLD;114
+151;Netherlands Antilles;Rest of Americas;XAM;1
+153;New Caledonia;Rest of Asia-Pacific;XAS;4
+154;The former Yugoslav Republic of Macedonia;Macedonia;MKD;101
+155;Vanuatu;Rest of Asia-Pacific;XAS;4
+156;New Zealand;New Zealand;NZL;117
+157;Nicaragua;Nicaragua;NIC;113
+158;Niger;Niger;NER;111
+159;Nigeria;Nigeria;NGA;112
+162;Norway;Norway;NOR;115
+165;Pakistan;Pakistan;PAK;119
+166;Panama;Panama;PAN;121
+167;Czech Republic;CSSR/Czech Republic (1990/1991);CZE;43
+168;Papua New Guinea;Papua New Guinea;PNG;124
+169;Paraguay;Paraguay;PRY;128
+170;Peru;Peru;PER;122
+171;Philippines;Philippines;PHL;123
+173;Poland;Poland;POL;125
+174;Portugal;Portugal;PRT;127
+175;Guinea-Bissau;Rest of Africa;XAF;3
+176;Timor-Leste;Rest of Asia-Pacific;XAS;4
+177;Puerto Rico;Rest of Americas;XAM;1
+178;Eritrea;Eritrea;ERI;52
+179;Qatar;Qatar;QAT;129
+181;Zimbabwe;Zimbabwe;ZWE;164
+183;Romania;Romania;ROU;130
+184;Rwanda;Rwanda;RWA;132
+185;Russian Federation;USSR/Russian Federation (1990/1991);RUS;131
+186;Serbia and Montenegro;Yugoslavia/Serbia (1991/1992);SRB;140
+188;Saint Kitts and Nevis;Rest of Americas;XAM;1
+189;Saint Lucia;Rest of Americas;XAM;1
+191;Saint Vincent and the Grenadines;Rest of Americas;XAM;1
+193;Sao Tome and Principe;Rest of Africa;XAF;3
+194;Saudi Arabia;Saudi Arabia;SAU;133
+195;Senegal;Senegal;SEN;135
+197;Sierra Leone;Sierra Leone;SLE;137
+198;Slovenia;Slovenia;SVN;143
+199;Slovakia;Slovakia;SVK;142
+200;Singapore;Singapore;SGP;136
+201;Somalia;Somalia;SOM;139
+202;South Africa;South Africa;ZAF;162
+203;Spain;Spain;ESP;53
+207;Suriname;Rest of Americas;XAM;1
+208;Tajikistan;Tajikistan;TJK;149
+209;Swaziland;Rest of Africa;XAF;3
+210;Sweden;Sweden;SWE;144
+211;Switzerland;Switzerland;CHE;32
+212;Syrian Arab Republic;Syria;SYR;145
+213;Turkmenistan;Turkmenistan;TKM;150
+214;"China; Taiwan Province of";Rest of Asia-Pacific;XAS;4
+215;United Republic of Tanzania;Tanzania;TZA;153
+216;Thailand;Thailand;THA;148
+217;Togo;Togo;TGO;147
+220;Trinidad and Tobago;Rest of Americas;XAM;1
+221;Oman;Oman;OMN;118
+222;Tunisia;Tunisia;TUN;151
+223;Turkey;Turkey;TUR;152
+225;United Arab Emirates;United Arab Emirates;ARE;8
+226;Uganda;Uganda;UGA;154
+228;USSR;USSR/Russian Federation (1990/1991);RUS;131
+229;United Kingdom;United Kingdom;GBR;59
+230;Ukraine;Ukraine;UKR;155
+231;United States of America;United States of America;USA;157
+233;Burkina Faso;Burkina Faso;BFA;17
+234;Uruguay;Uruguay;URY;156
+235;Uzbekistan;Uzbekistan;UZB;158
+236;Venezuela (Bolivarian Republic of);Venezuela;VEN;159
+237;Viet Nam;Viet Nam;VNM;160
+238;Ethiopia;Ethiopia/DR Ethiopia (1992/1993);ETH;55
+244;Samoa;Rest of Asia-Pacific;XAS;4
+247;Yemen Dem;DR Yemen (Aden);DYE;46
+248;Yugoslav SFR;Yugoslavia/Serbia (1991/1992);SRB;140
+249;Yemen;Yemen Arab Republic/Yemen (1990/1991);YEM;161
+250;Democratic Republic of the Congo;DR Congo;COD;37
+251;Zambia;Zambia;ZMB;163
+255;Belgium;Belgium;BEL;15
+256;Luxembourg;Luxembourg;LUX;95
+272;Serbia;Yugoslavia/Serbia (1991/1992);SRB;140
+273;Montenegro;Rest of Europe;XEU;2
+276;Sudan;Sudan/North Sudan (2010/2011);SDN;141
+277;South Sudan;South Sudan;SDS;134
+299;Palestine;Palestine;PSE;120
+999;RoW;NA;NA;165
