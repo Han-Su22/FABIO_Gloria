@@ -7,7 +7,7 @@
 #                 "development" = read.xlsx( str_c("./input/", filename$RegConcordance), sheet = 5, colNames = TRUE) )
 
 ## Import sector concordance
-SecConc <- read.xlsx(str_c("../gloria/", filename$labels), sheet = 7, colNames = TRUE, startRow = 2)
+SecConc <- read.xlsx(str_c(path$gloria, filename$labels), sheet = 7, colNames = TRUE, startRow = 2)
 
 # Clean look-up table for unique sector list:change SecConc to SecConc[,1:20], one column is unused
 tmp <- melt(SecConc[,1:20], id.vars = "X1") %>% 
@@ -22,10 +22,10 @@ rownames(SecConc) <- SecConc$X1
 SecConc$X1 <- NULL
 
 ## Read unique lists and create labels
-unique <- list("region" = read.xlsx( str_c("../gloria/", filename$labels), sheet = 1, colNames = TRUE ),
-               "sector" = read.xlsx( str_c("../gloria/", filename$labels), sheet = 2, colNames = TRUE ),
-               "finaldemand" = read.xlsx( str_c("../gloria/", filename$labels), sheet = 3, colNames = TRUE  ),
-               "extension" = read.xlsx( str_c("../gloria/", filename$labels), sheet = 5, colNames = TRUE  ) )
+unique <- list("region" = read.xlsx( str_c(path$gloria, filename$labels), sheet = 1, colNames = TRUE ),
+               "sector" = read.xlsx( str_c(path$gloria, filename$labels), sheet = 2, colNames = TRUE ),
+               "finaldemand" = read.xlsx( str_c(path$gloria, filename$labels), sheet = 3, colNames = TRUE  ),
+               "extension" = read.xlsx( str_c(path$gloria, filename$labels), sheet = 5, colNames = TRUE  ) )
 
 # Add sector grouping to unique list
 unique$sector <- left_join(unique$sector, tmp, by = "Sector_names")

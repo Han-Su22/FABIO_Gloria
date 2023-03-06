@@ -16,7 +16,14 @@ library(Matrix)
 path <- list("rawMRIO" = "../gloria/GLORIA_MRIO_Loop055_part_I_MRIOdatabase/GLORIA_MRIOs_55_",
              "rawExtension" = "../gloria/GLORIA_MRIO_Loop055_part_III_satelliteaccounts/GLORIA_SatelliteAccounts_055_",
              "storeMRIOModel" = "../gloria/EEMRIO/",
-             "storeResults" = "../gloria/results/")
+             "storeResults" = "../gloria/results/",
+             "gloria" = "../gloria/")
+
+path <- list("rawMRIO" = "/mnt/nfs_fineprint/tmp/gloria/v055/raw/",
+             "rawExtension" = "/mnt/nfs_fineprint/tmp/gloria/v055/E/",
+             "storeMRIOModel" = "/mnt/nfs_fineprint/tmp/gloria/v055/T/",
+             "storeResults" = "./gloria_parser/results/",
+             "gloria" = "/mnt/nfs_fineprint/tmp/gloria/")
 
 filename <- list("pre" = "_120secMother_AllCountries_002_",
                  "mid" = "-Results_",
@@ -25,7 +32,7 @@ filename <- list("pre" = "_120secMother_AllCountries_002_",
                  #"RegConcordance" = "GLORIA_164RegAgg.xlsx")#don't have the file, not label the countries' group
 
 # Load all labels, codes, concordances and other meta information including the agg function
-source("./0_create_labels.R")
+source("./gloria_parser/0_create_labels.R")
 
 ## Set years of the time series and perform parsing
 years <- 1990:2020
@@ -33,9 +40,9 @@ years <- 1990:2020
 
 
 # Execute script for parsing the extensions (materials, labor, carbon, energy, land, water (added))
-source("./1_Extension_parser.R")
+source("./gloria_parser/1_Extension_parser.R")
 # Load function for parsing the basic MRIO variables (L, A, S, U, Y, ...)
-source("./1_MRIO_parser.R")
+source("./gloria_parser/1_MRIO_parser.R")
 
 
 # Load function for performing basic MRIO footprint analysis
