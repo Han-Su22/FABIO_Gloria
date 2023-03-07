@@ -13,17 +13,17 @@ library(Matrix)
 
 ## Set paths where tables in Tvy format are located and where the results should be stored
 # In case functions or certain scripts don't work, the reason might be found here!
-path <- list("rawMRIO" = "../gloria/GLORIA_MRIO_Loop055_part_I_MRIOdatabase/GLORIA_MRIOs_55_",
-             "rawExtension" = "../gloria/GLORIA_MRIO_Loop055_part_III_satelliteaccounts/GLORIA_SatelliteAccounts_055_",
-             "storeMRIOModel" = "../gloria/EEMRIO/",
-             "storeResults" = "../gloria/results/",
-             "gloria" = "../gloria/")
+path <- list("rawMRIO" = "./gloria/GLORIA_MRIO_Loop055_part_I_MRIOdatabase/GLORIA_MRIOs_55_",
+             "rawExtension" = "./gloria/GLORIA_MRIO_Loop055_part_III_satelliteaccounts/GLORIA_SatelliteAccounts_055_",
+             "storeMRIOModel" = "./gloria/EEMRIO/",
+             "storeResults" = "./gloria/results/",
+             "gloria" = "./gloria/")
 
-path <- list("rawMRIO" = "/mnt/nfs_fineprint/tmp/gloria/v055/raw/",
-             "rawExtension" = "/mnt/nfs_fineprint/tmp/gloria/v055/E/",
-             "storeMRIOModel" = "/mnt/nfs_fineprint/tmp/gloria/v055/T/",
-             "storeResults" = "./gloria_parser/results/",
-             "gloria" = "/mnt/nfs_fineprint/tmp/gloria/")
+#path <- list("rawMRIO" = "/mnt/nfs_fineprint/tmp/gloria/v055/raw/",
+#             "rawExtension" = "/mnt/nfs_fineprint/tmp/gloria/v055/E/",
+#             "storeMRIOModel" = "/mnt/nfs_fineprint/tmp/gloria/v055/T/",
+#             "storeResults" = "./gloria_parser/results/",
+#             "gloria" = "/mnt/nfs_fineprint/tmp/gloria/")
 
 filename <- list("pre" = "_120secMother_AllCountries_002_",
                  "mid" = "-Results_",
@@ -35,12 +35,12 @@ filename <- list("pre" = "_120secMother_AllCountries_002_",
 source("./gloria_parser/0_create_labels.R")
 
 ## Set years of the time series and perform parsing
-years <- 1990:2020
-# year <- 1990
-
+years <- 1990:2020#need to start from 1990
 
 # Execute script for parsing the extensions (materials, labor, carbon, energy, land, water (added))
 source("./gloria_parser/1_Extension_parser.R")
+
+years <- 1995:1996
 # Load function for parsing the basic MRIO variables (L, A, S, U, Y, ...)
 source("./gloria_parser/1_MRIO_parser.R")
 

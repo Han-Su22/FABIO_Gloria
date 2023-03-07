@@ -22,7 +22,7 @@ year=1995
 
 load(paste0("gloria/EEMRIO_rdata/",year,"_Y.RData"))
 
-E <- readRDS("fabio_v1.2/E.rds")
+E <- readRDS("fabio_v1.2/E_newwater.rds")
 E <- E[[paste0(year)]]
 X <- readRDS("fabio_v1.2/X.rds")
 X <- X[,paste0(year)]

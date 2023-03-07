@@ -9,7 +9,7 @@ library(Matrix)
 
 #year=2013
 #years <- 1986:2013
-years <- 1995:1996
+years <- 1990:2020
 #versions <- c("","losses/","wood/")
 #version="losses/"
 
@@ -37,7 +37,7 @@ for(year in years){
   A_inv <- readRDS(paste0("fabio_v1.2/", year, "_L_value.rds"))
   B_inv <- -A_inv %*% B %*% D_inv
   saveRDS(B_inv, paste0("fabio_v1.2/", year, "_B_inv_value.rds"))
-  
+  rm(B,A_inv,B_inv,D_inv,x); gc()
 }
 #}
 

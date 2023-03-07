@@ -44,7 +44,7 @@ hybridise <- function(year, Sup, Use, Cou, Y_all) {
   
   # Get the columns of Y containing the other use category to allocate
   Oth <- Y[, grep("other$", colnames(Y))]
-  rm(Y, Z)
+  rm(Y, Z); gc()
   
   # Match FABIO countries with GLORIA countries and restructure the Other use matrix
   Oth <- Oth %*% Cou
@@ -64,8 +64,9 @@ hybridise <- function(year, Sup, Use, Cou, Y_all) {
     B[, (1 + 120 * (i - 1)):(120 * i)] <-
       do.call(rbind, replicate(192, T[[i]], simplify = FALSE)) * Oth[, i]
   }
-
+  rm(T); gc()
   B
+  
 }
 
 
@@ -86,7 +87,7 @@ cl <- parallel::makeCluster(n_cores)
 
 # Years to calculate hybridised FABIO for
 #years <- 1986:2013
-years <- 1995:1996
+years <- 1990:2020
 
 output <- parallel::parLapply(cl, years, hybridise, Sup, Use, Cou, Y_all)
 

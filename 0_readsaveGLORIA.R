@@ -1,7 +1,7 @@
 library(Matrix)
 library(data.table)
 
-for(year in 1995:1996){
+for(year in 1990:2020){
   
   Z <- fread( paste0("gloria/EEMRIO/",year,"_Z.csv"))
   Z <- as.matrix(Z)
