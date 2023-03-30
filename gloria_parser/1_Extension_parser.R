@@ -40,12 +40,16 @@ for(year in years)
   i <- unique$extension$Lfd_Nr[ unique$extension$Sat_head_indicator == "Blue_water_consumption" ]
   tmp_water <- colSums(Q[i,])
   
+  #add non-agriculture water consumption
+  i <- unique$extension$Lfd_Nr[ unique$extension$Sat_indicator == "Non-agriculture blue water consumption" ]
+  tmp_water_noagr <- Q[i,]
+  
   
   # Create single matrix and remove tmp files
   #Q <- t( rbind(tmp_mat, tmp_energy, tmp_CO2, tmp_land, tmp_empl) )
-  Q <- t( rbind(tmp_energy, tmp_land, tmp_empl,tmp_water) )
-  colnames(Q) <- c("energy", "landuse", "employment","Blue_water_consumption")
-  remove(tmp_mat, tmp_energy, tmp_land, tmp_empl,tmp_water)
+  Q <- t( rbind(tmp_energy, tmp_land, tmp_empl,tmp_water,tmp_water_noagr) )
+  colnames(Q) <- c("energy", "landuse", "employment","Blue_water_consumption","Non-agriculture blue water consumption")
+  remove(tmp_mat, tmp_energy, tmp_land, tmp_empl,tmp_water,tmp_water_noagr)
   
   # Create overview/summary
   tmp <- Agg(x = Q, aggkey = labels$parsed$Z$region_name, dim = 1)
@@ -64,8 +68,8 @@ fwrite( overview, str_c(path$storeResults, "Extension_check_timeseries_1990to202
 # Clean summary and write to folder
 colnames(overview) <- c("region", "stressor", "value", "year")
 
-units <- data.frame("stressor" = c("energy", "landuse", "employment","Blue_water_consumption"),
-                    "unit" = c("tera joule", "1000 ha", "1000 persons","million m3 H2Oeq") )
+units <- data.frame("stressor" = c("energy", "landuse", "employment","Blue_water_consumption","Non-agriculture blue water consumption"),
+                    "unit" = c("tera joule", "1000 ha", "1000 persons","million m3 H2Oeq","million m3 H2Oeq") )
 
 overview <- left_join(overview, units, by = "stressor")
 
